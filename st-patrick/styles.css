@@ -1,0 +1,109 @@
+body {
+	background: #000 url(bg2.jpg) no-repeat;
+	color: white;
+	font-family: georgia, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 45px;
+	margin: 0;
+	letter-spacing: -1px;
+	color: #7db086;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	height: 216px;
+	background: url(title.png) no-repeat;
+	text-indent: -2000px;
+;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 24px;
+	margin: 0 0 1em;
+	color: #56a588;
+	text-indent: -2000px;
+	position: absolute;
+}
+
+p {
+	line-height: 1.4;
+	margin: 0 0 6px;
+	font-size: 16px;
+	color: #fff
+}
+
+#wrapper {
+	width: 640px;
+	margin: 20px auto 1em;
+	text-align: left;
+}
+
+#footer {
+	background: url(TPlogo.png) no-repeat center top;
+	width	170px; height: 130px;
+	margin: 0 auto;
+}
+
+.left, .right {
+	float: left;
+	margin-right: 1em;
+	border: 1px solid #999;
+	padding: 0px;
+	background: #000;
+}
+
+.right {
+	float: right;
+	margin: 0 0 0 1em;
+}
+
+.intro {
+	font-size: 22px;
+	margin: 18px 0 10px;
+	color: #98afac;
+}
+
+#player {
+	width: 640px;
+	height: 391px;
+	margin: 1em auto;
+}
+
+.ordering {
+	color: #98afac
+}
+
+a {
+	color: #ffc100;
+	text-decoration: none;
+	background: rgba(255,255,255,.2);
+	padding: 10px 20px;
+	-webkit-border-radius: 5px;
+}
+
+a:hover {
+	background: rgba(255,255,255,.3); color: #fff;
+
+}
+
+.orderform {
+	margin: 1em 0;
+	color: #666666;
+	text-align: center;
+	font-size: 24px;
+}
+
+* html h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+}
+
+* html h2 {
+	text-indent: 0;
+	height: auto;
+	position: static;
+}

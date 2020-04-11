@@ -1,0 +1,98 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, .textwidget {font-family: 'Roboto Slab', serif;}
+.site-description {
+  font-size: 20px;
+  color: #EB6C18;
+}
+.textwidget a, .textwidget a:hover {
+    border-bottom: none;
+}
+.widget-title {
+  color: #0197FF;
+}
+@media screen and (min-width: 59.6875em) {
+  body:before {background: none;}
+  .site-header {
+    margin: 3vw 0 10%;
+  }
+  .sidebar {
+    background: url(/img/2bikeswest-final.png) no-repeat center -60px #fff;
+    background-size: 85%;
+    border-right: 0;
+    float: left;
+    margin-right: -100%;
+    max-width: 413px;
+    position: relative;
+    width: 29.4118%;
+    padding-top: 160px;
+    padding-bottom: 20%;
+  }
+  .site {margin-left: 0;}
+  .widget {
+    margin-bottom: 10%;
+  }
+}
+.entry-footer {
+  background-color: #E3E8E7;
+  background-color: rgb(227, 232, 231);
+}
+.site-title {
+  display: none;
+}
+
+@media (max-width:950px) {
+  .site-header {
+    background: url(/img/2bikeswest-final.png) no-repeat center -60px;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-size: 280px;
+    padding: 8.5% 6.5%;
+  }
+  .site-description {
+    margin-top: 1em;
+    font-size: 16px;
+    color: #643D3E;
+    -webkit-transform: translateY(85px);
+            transform: translateY(85px);
+    text-align: center;
+    padding-left: 70px;
+  }
+}
+@media only screen and (max-width:760px) {
+  .site-header {
+    padding-bottom: 10%;
+  }
+}
+@media only screen and (max-width:720px) {
+  .site-header {
+    padding-bottom: 15%;
+    -ms-background-position-y: -80px;
+        background-position-y: -80px;
+  }
+}
+@media only screen and (max-width:480px) {
+  .site-header {
+    padding-bottom: 25%;
+  }
+}
+@media only screen and (max-width:320px) {
+  .site-header {
+    padding-bottom: 40%;
+    -ms-background-position-y: -50px;
+        background-position-y: -50px;
+
+  }
+}
+.entry-content img.alignnone {
+  margin-bottom: 2em;
+}
+
+h2 a {
+  color: #663E3F;
+}
+
+a:hover {
+  color: #5A3087;
+}

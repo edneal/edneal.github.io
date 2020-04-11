@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Three examples of EY Entrepreneur Of The Year profiles </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Three examples of EY Entrepreneur Of The Year profiles</h1>
+    </div>
+  </header>
+  <div class="body">
+    <div class="wrap">
+      <div class="three-columns">
+        <div class="item">
+          <h3>Example 1</h3>
+          <video width="570" height="320" controls="" poster="img/real-estate.jpg">
+            <source src="/eoy/video/real-estate.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <h3>Example 2</h3>
+          <video width="570" height="320" controls="" poster="img/emerging.jpg">
+            <source src="/eoy/video/emerging.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <h3>Example 3</h3>
+          <video width="570" height="320" controls="" poster="img/consumer-products.jpg">
+            <source src="/eoy/video/consumer-products.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p class="largetext">Questions?</p>
+      <p>Please contact <a href="mailto:candice.moody@ey.com">candice.moody@ey.com</a> or call <a href="tel:1-214-754-3289">214-754-3289</a>.</p>
+    </div>
+  </footer>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script>
+$("video").click(function(e){
+
+    // handle click if not Firefox (Firefox supports this feature natively)
+    if (typeof InstallTrigger === 'undefined') {
+
+        // get click position 
+        var clickY = (e.pageY - $(this).offset().top);
+        var height = parseFloat( $(this).height() );
+
+        // avoids interference with controls
+        if (clickY > 0.82*height) return;
+
+        // toggles play / pause
+        this.paused ? this.play() : this.pause();
+    }
+});
+  </script>
+</body>
+
+</html>
